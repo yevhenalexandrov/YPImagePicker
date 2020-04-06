@@ -147,6 +147,8 @@ class ExampleViewController: UIViewController {
         config.library.maxNumberOfItems = 5
         config.gallery.hidesRemoveButton = false
         
+//        config.showsMultipleSelectionButton = false
+        
         /* Disable scroll to change between mode */
         // config.isScrollToChangeModesEnabled = false
 //        config.library.minNumberOfItems = 2
