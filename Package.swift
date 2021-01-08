@@ -8,7 +8,7 @@ let package = Package(
     platforms: [.iOS(.v12)],
     products: [ .library(name: "YPImagePicker", targets: ["YPImagePicker"]) ],
     dependencies: [
-        .package(url: "https://github.com/freshOS/Stevia", .exact("5.1.0")),
+        .package(url: "https://github.com/freshOS/Stevia"),
         .package(url: "https://github.com/HHK1/PryntTrimmerView", .exact("4.0.2"))
     ],
     targets: [
